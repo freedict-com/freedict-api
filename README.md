@@ -33,6 +33,16 @@ claude mcp add --transport http freedict https://freedict.com/mcp
 }
 ```
 
+**Cline** (`cline_mcp_settings.json`, or ask Cline to "add the FreeDict MCP server"):
+
+```json
+{
+  "mcpServers": {
+    "freedict": { "type": "streamableHttp", "url": "https://freedict.com/mcp" }
+  }
+}
+```
+
 **VS Code** (`.vscode/mcp.json`):
 
 ```json

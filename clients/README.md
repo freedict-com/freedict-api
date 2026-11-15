@@ -7,6 +7,7 @@ Server URL: `https://freedict.com/mcp` (Streamable HTTP). Sign-in is OAuth 2.1: 
 | Claude (web, desktop) | Settings → Connectors → Add custom connector → `https://freedict.com/mcp` |
 | Claude Code | `claude mcp add --transport http freedict https://freedict.com/mcp` |
 | Cursor | `~/.cursor/mcp.json`: `{"mcpServers": {"freedict": {"url": "https://freedict.com/mcp"}}}` |
+| Cline | `cline_mcp_settings.json`: `{"mcpServers": {"freedict": {"type": "streamableHttp", "url": "https://freedict.com/mcp"}}}` |
 | VS Code | `.vscode/mcp.json`: `{"servers": {"freedict": {"type": "http", "url": "https://freedict.com/mcp"}}}` |
 | Windsurf | `~/.codeium/windsurf/mcp_config.json`: `{"mcpServers": {"freedict": {"serverUrl": "https://freedict.com/mcp"}}}` |
 | ChatGPT | Settings → Apps & Connectors → Create → MCP server URL `https://freedict.com/mcp` |
