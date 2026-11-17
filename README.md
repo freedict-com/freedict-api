@@ -1,8 +1,8 @@
-# FreeDict API and MCP server
+# FreeDict: Free English Dictionary API and MCP Server
 
 <img src="logo.png" alt="FreeDict" width="96" align="right">
 
-English dictionary data for apps, sites, games and AI agents: definitions, examples, pronunciation, synonyms and antonyms, rhymes, word origins, slang, word forms and translations, plus a word finder that takes every filter in one call.
+FreeDict is a free dictionary API and remote MCP server for English. It gives apps, sites, games and AI agents definitions, examples, pronunciation, synonyms and antonyms, rhymes, word origins, slang, word forms and translations, plus a word finder that takes every filter in one call.
 
 You can use it two ways:
 
@@ -106,6 +106,7 @@ The Free plan covers non-commercial projects; paid plans cover commercial use. L
 
 - Docs: [freedict.com/api/docs](https://freedict.com/api/docs)
 - For AI apps: [freedict.com/llms.txt](https://freedict.com/llms.txt)
+- See the data on the site: [English dictionary](https://freedict.com), [thesaurus](https://freedict.com/thesaurus), [rhyming words](https://freedict.com/rhymes), [word finder](https://freedict.com/word-finder), [slang dictionary](https://freedict.com/slang), [translator](https://freedict.com/translate), [word of the day](https://freedict.com/word-of-the-day)
 - Questions and bug reports: open an issue here, or use [freedict.com/contact](https://freedict.com/contact)
 
 The docs and examples in this repository are MIT licensed. The dictionary data is served under the [FreeDict API terms](https://freedict.com/api/terms).
